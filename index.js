@@ -13,3 +13,12 @@ for (let i = 0; i < 16; i++) {
     row.appendChild(column);
   }
 }
+// add hover effect so grid divs change color when mouse passes over
+// select all divs queryselectorall? foreach element add eventlistener with hovering
+//change div background using JS?
+const squares = document.querySelectorAll(".column");
+squares.forEach((square) => {
+  square.addEventListener("mouseover", () => {
+    square.classList.add("color-me");
+  });
+});
