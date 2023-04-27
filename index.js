@@ -8,7 +8,7 @@ btn.addEventListener("click", () => {
   //Change divs bg on hover
   const squares = document.querySelectorAll(".column");
   squares.forEach((square) => {
-    square.addEventListener("mouseover", (e) => {
+    square.addEventListener("mousemove", (e) => {
       //Color only if button pressed!
       if (e.buttons) square.classList.add("color-me");
     });
