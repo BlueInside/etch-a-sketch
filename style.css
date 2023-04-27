@@ -3,10 +3,9 @@
 }
 .center {
   text-align: center;
+  margin-bottom: 10px;
 }
-.button {
-  margin-left: auto;
-}
+
 .container {
   height: 920px;
   display: flex;

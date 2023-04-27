@@ -22,3 +22,11 @@ squares.forEach((square) => {
     square.classList.add("color-me");
   });
 });
+
+//button on top of the screen that asks user number squares per side for new grid;
+// how to restart page so it changes amount of squares when user enters input?
+// make a function- that fires after click event cleans container and makes new one?
+const btn = document.querySelector("body > div.center");
+btn.addEventListener("click", () => {
+  const squaresAmount = alert("how many squares?");
+});
