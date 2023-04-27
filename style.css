@@ -1,9 +1,14 @@
 * {
   background-color: pink;
 }
-
+.center {
+  text-align: center;
+}
+.button {
+  margin-left: auto;
+}
 .container {
-  height: 950px;
+  height: 920px;
   display: flex;
   flex-direction: column;
 }
