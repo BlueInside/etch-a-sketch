@@ -1,13 +1,14 @@
 * {
   background-color: pink;
 }
+
 .row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 5.95vh;
+  height: 5.5vh;
   border: 1px solid blue;
+  justify-content: center;
 }
 .column {
-  flex-basis: 100%;
+  border: 1px solid brown;
+  width: 5.5vh;
 }
