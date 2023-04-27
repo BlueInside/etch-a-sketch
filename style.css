@@ -1,0 +1,13 @@
+* {
+  background-color: pink;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 5.95vh;
+  border: 1px solid blue;
+}
+.column {
+  flex-basis: 100%;
+}
