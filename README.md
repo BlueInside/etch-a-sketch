@@ -9,7 +9,6 @@ This project is a simple Etch-a-Sketch created to practice plain HTML, CSS, and 
 - [Technologies Used](#technologies-used)
 - [Setup and Usage](#setup-and-usage)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
