@@ -1,16 +1,18 @@
 const container = document.querySelector(".container");
 
-//Ask user for amount of squares
+// Ask user for amount of squares
 const btn = document.querySelector("body > div.center > button");
+const colorPicker = document.getElementById("colorPicker");
+
 btn.addEventListener("click", () => {
-  const squaresAmount = prompt("how many squares? (100 max)");
+  const squaresAmount = prompt("How many squares? (100 max)");
   createSquares(squaresAmount);
-  //Change divs bg on hover
+  // Change divs bg on hover
   const squares = document.querySelectorAll(".column");
   squares.forEach((square) => {
     square.addEventListener("mousemove", (e) => {
-      //Color only if button pressed!
-      if (e.buttons) square.classList.add("color-me");
+      // Color only if button pressed!
+      if (e.buttons) square.style.backgroundColor = colorPicker.value;
     });
   });
 });
@@ -20,7 +22,7 @@ function createSquares(squares) {
   squares = squares > 100 ? 100 : squares;
 
   container.innerHTML = "";
-  //Create grid squares x squares
+  // Create grid squares x squares
   for (let i = 0; i < squares; i++) {
     const row = document.createElement("div");
     row.classList.add("row");
