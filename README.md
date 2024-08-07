@@ -45,10 +45,8 @@ The Etch-a-Sketch project allows users to specify the number of squares in the g
 ## Project Structure
   ```bash
   etch-a-sketch/
-├── css/
-│   └── style.css       # Main stylesheet
-├── js/
-│   └── index.js        # JavaScript file
+│── style.css       # Main stylesheet
+│── index.js        # JavaScript file
 ├── index.html          # Main HTML file
 └── README.md           # Project README file
   ```
